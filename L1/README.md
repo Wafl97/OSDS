@@ -132,31 +132,33 @@ CMD python3 home/script.py
 
 ## E6
 
-Explain what a Dockerfile is.
-How does it work?
-    - 
-Which instructions can be used?
-    - FROM
-    - RUN
-    - COPY
-    - CMD
-What do the above-mentioned instructions do?
-    - FROM  :   Tells the file what image is being build from
-    - RUN   :   Takes a bash command and runs it 
-    - COPY  :   Copies a file into the container when run
-    - CMD   :   Determins the lifetime of the container, when the CMD is executed the container shuts down
-Explain how a Docker image is built.
-    - An image is made from a Dockerfile by calling 'build'
-Which options do you know?
-    - docker build -t <TAG> <DIR-PATH>
-    - docker build -f <FILE-NAME> <DIR-PATH>
-What are they used for?
-    - -t    :   Gives the image a handle, used to call it later
-    - -f    :   Used to specify the name of the Dockerfile, if it is not called 'Dockerfile'
-Explain how a Docker container is runned.
-    - docker run <TAG>
-Which options do you know?
-    - -it
-What are they used for?
-    - -it   :   This tell docker that it is an iterative procces, so you can interact with the container
-Compare cheat sheets and share your pearls of wisdom.
+### Explain what a Dockerfile is.
+- 
+### How does it work?
+- 
+### Which instructions can be used?
+- FROM
+- RUN
+- COPY
+- CMD
+### What do the above-mentioned instructions do?
+- FROM  :   Tells the file what image is being build from
+- RUN   :   Takes a bash command and runs it 
+- COPY  :   Copies a file into the container when run
+- CMD   :   Determins the lifetime of the container, when the CMD is executed the container shuts down
+### Explain how a Docker image is built.
+- An image is made from a Dockerfile by calling 'build'
+### Which options do you know?
+- docker build -t <TAG> <DIR-PATH>
+- docker build -f <FILE-NAME> <DIR-PATH>
+### What are they used for?
+- -t    :   Gives the image a handle, used to call it later
+- -f    :   Used to specify the name of the Dockerfile, if it is not called 'Dockerfile'
+### Explain how a Docker container is runned.
+- docker run <TAG>
+### Which options do you know?
+- -it
+### What are they used for?
+- -it   :   This tell docker that it is an iterative procces, so you can interact with the container
+### Compare cheat sheets and share your pearls of wisdom.
+-
