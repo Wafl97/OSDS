@@ -133,9 +133,9 @@ CMD python3 home/script.py
 ## E6
 
 ### Explain what a Dockerfile is.
-- 
+- A file containing the instructions used to build an image
 ### How does it work?
-- 
+- A Dockerfile is compiled(build) to an image, which is a blueprint used to contruct a container when the image is run.
 ### Which instructions can be used?
 - FROM
 - RUN
