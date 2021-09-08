@@ -3,14 +3,14 @@
 ## E1
 
 Commands run:
-```
+```powershell
 docker run hello-world
 ```
 
 ## E2
 
 Commands run:
-```
+```powershell
 docker build -t L1E2 ./L1E2
 
 docker run L1E2
@@ -36,7 +36,7 @@ CMD cat helloWorld.txt
 Commands run:
 
 Before editing the 'Dockerfile'
-```
+```powershell
 docker build -t L1E3 ./L1E3
 
 docker run -it L1E3
@@ -44,7 +44,7 @@ docker run -it L1E3
 *Remember the included folder
 
 After editing the 'Dockerfile'
-```
+```powershell
 docker build -t L1E3 ./L1E3
 
 docker run L1E3
@@ -80,7 +80,7 @@ CMD python3 home/print.py
 ## E4
 
 Commands run:
-```
+```powershell
 docker build -t L1E4 ./L1E4
 
 docker run -p 80:80 L1E4
@@ -99,7 +99,7 @@ RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf
 ## E5
 
 Commands run:
-```
+```powershell
 docker build -t L1E5 ./L1E5
 
 docker run L1E5
