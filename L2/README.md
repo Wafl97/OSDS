@@ -101,7 +101,7 @@ This returns a list of all running docker containers, where you can find the id 
 
 In this case the id was: `a94f38a07b8a`
 
-Now we can use the <i> exec </i> command with the id to acces the container from the other terminal.
+Now we can use the <i> exec </i> command with the id to access the container from the other terminal.
 
 ```powershell
 docker exec -it [id] bash
@@ -117,7 +117,7 @@ show databases;
 
 Dockerfile:
 
-Here are both the Dockerfiles from E2 and E4 used in the SQL and WEB dirs respectivly, with the included folders.
+Here are both the Dockerfiles from E2 and E4 used in the SQL and WEB dirs respectively, with the included folders.
 
 docker-compose:
 ```yml
