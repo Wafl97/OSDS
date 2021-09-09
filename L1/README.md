@@ -9,13 +9,6 @@ docker run hello-world
 
 ## E2
 
-Commands run:
-```powershell
-docker build -t L1E2 ./L1E2
-
-docker run L1E2
-```
-
 Dockerfile:
 ```Dockerfile
 # A Dockerfile often begins with the FROM instruction, telling the Docker engine which image this image is built from.
@@ -31,24 +24,14 @@ RUN echo “Hello, World! 42.” > helloWorld.txt
 CMD cat helloWorld.txt
 ```
 
-## E3
-
 Commands run:
-
-Before editing the 'Dockerfile'
 ```powershell
-docker build -t L1E3 ./L1E3
+docker build -t L1E2 ./L1E2
 
-docker run -it L1E3
+docker run L1E2
 ```
-*Remember the included folder
 
-After editing the 'Dockerfile'
-```powershell
-docker build -t L1E3 ./L1E3
-
-docker run L1E3
-```
+## E3
 
 Initial Dockerfile:
 
@@ -77,15 +60,24 @@ RUN apt-get install python3 -y
 CMD python3 home/print.py
 ```
 
-## E4
-
 Commands run:
-```powershell
-docker build -t L1E4 ./L1E4
 
-docker run -p 80:80 L1E4
+Before editing the 'Dockerfile'
+```powershell
+docker build -t L1E3 ./L1E3
+
+docker run -it L1E3
 ```
 *Remember the included folder
+
+After editing the 'Dockerfile'
+```powershell
+docker build -t L1E3 ./L1E3
+
+docker run L1E3
+```
+
+## E4
 
 Dockerfile:
 ```Dockerfile
@@ -96,15 +88,16 @@ COPY ./L1E4 /var/www/html
 RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf
 ```
 
-## E5
 
 Commands run:
 ```powershell
-docker build -t L1E5 ./L1E5
+docker build -t L1E4 ./L1E4
 
-docker run L1E5
+docker run -p 80:80 L1E4
 ```
 *Remember the included folder
+
+## E5
 
 Python script:
 ```py
@@ -127,8 +120,15 @@ RUN apt-get install python3 -y
 
 #Run the python script
 CMD python3 home/script.py
-
 ```
+
+Commands run:
+```powershell
+docker build -t L1E5 ./L1E5
+
+docker run L1E5
+```
+*Remember the included folder
 
 ## E6
 
