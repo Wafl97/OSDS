@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  sql:
+    build: ./SQL/
+    command: --default-authentication-plugin=mysql_native_password
+  web:
+    build: ./WEB/
+    depends_on: 
+    - sql
+    ports:
+    - '7000:80'
