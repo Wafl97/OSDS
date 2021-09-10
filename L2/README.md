@@ -123,13 +123,13 @@ docker-compose:
 ```yml
 version: '3'
 services: 
-  sql:
+  db_container:
     build: ./SQL/
     command: --default-authentication-plugin=mysql_native_password
-  web:
+  web_container:
     build: ./WEB/
     depends_on: 
-    - sql
+    - db_container
     ports:
     - '7000:80'
 ```
