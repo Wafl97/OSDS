@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wsql
+spec:
+  selector:
+    matchLabels:
+      app: wsql
+  template:
+    metadata:
+      labels:
+        app: wsql
+    spec:
+      containers:
+      - name: wsql
+        image: ./SQL/
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 30069
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wphp
+spec:
+  selector:
+    matchLabels:
+      app: wphp
+  template:
+    metadata:
+      labels:
+        app: wphp
+    spec:
+      containers:
+      - name: wphp
+        image: ./WEB/
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 30069
+
+
