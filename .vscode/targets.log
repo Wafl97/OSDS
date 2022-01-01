@@ -1,0 +1,295 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Dette er frit programmel; se kildeteksten for kopieringsbetingelser.
+# Der er INGEN garanti; end ikke for SALGBARHED eller EGNETHED TIL NOGET
+# BESTEMT FORM�L.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Makedatabase, udskrevet Mon Dec 27 05:02:27 2021
+
+# Variabler
+
+# automatisk
+<D = $(patsubst %/,%,$(dir $<))
+# automatisk
+?F = $(notdir $?)
+# makefil
+MAKEFLAGS = Rrqp
+# milj�
+VSCODE_LOG_NATIVE = false
+# automatisk
+?D = $(patsubst %/,%,$(dir $?))
+# automatisk
+@D = $(patsubst %/,%,$(dir $@))
+# milj�
+HOMEDRIVE = C:
+# automatisk
+@F = $(notdir $@)
+# automatisk
+^D = $(patsubst %/,%,$(dir $^))
+# makefil
+CURDIR := e:/Skole/OSDS/OSDS
+# forvalgt
+SHELL := sh.exe
+# milj�
+WINDIR = C:\Windows
+# milj�
+VSCODE_NLS_CONFIG = {"locale":"da","availableLanguages":{},"_languagePackSupport":true}
+# milj�
+ONEDRIVE = C:\Users\mlwel\OneDrive
+# milj�
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefil
+MAKEFILE_LIST := 
+# milj�
+TMP = C:\Users\mlwel\AppData\Local\Temp
+# milj�
+VSCODE_VERBOSE_LOGGING = true
+# milj�
+PROGRAMW6432 = C:\Program Files
+# milj�
+PROGRAMDATA = C:\ProgramData
+# milj�
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5020eb0a-8953-4c29-b614-58613ff40a90-sock
+# milj�
+VSCODE_CWD = E:\Skole\OSDS\OSDS
+# milj�
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Programming\Git\cmd;E:\Programming\NodeJS\;E:\Programming\FFmpeg;E:\Programming\PHP;C:\ProgramData\ComposerSetup\bin;E:\Programming\Python\Python3;E:\Programming\Python\Python2;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Programming\Python\Python3\Scripts;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Programming\C\GnuWin32\bin;E:\Programmer\Pandoc\;C:\Users\mlwel\AppData\Local\Microsoft\WindowsApps;E:\Programming\Microsoft VS Code\bin;C:\Users\mlwel\AppData\Roaming\npm;C:\Users\mlwel\AppData\Roaming\Composer\vendor\bin;E:\Programming\IntelliJ\IntelliJ IDEA 2021.2\bin;E:\Programming\WebStorm\WebStorm 2021.2.2\bin;E:\Programmer\LaTeX\miktex\bin\x64\
+# milj�
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# milj�
+PROCESSOR_ARCHITECTURE = x86
+# milj�
+USERPROFILE = C:\Users\mlwel
+# milj�
+ALLUSERSPROFILE = C:\ProgramData
+# milj�
+VSCODE_LOG_STACK = false
+# milj�
+NUMBER_OF_PROCESSORS = 16
+# milj�
+ELECTRON_RUN_AS_NODE = 1
+# forvalgt
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatisk
+%F = $(notdir $%)
+# milj�
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6384_KRUYKBYECVXNELYW
+# milj�
+VSCODE_PIPE_LOGGING = true
+# milj�
+COMPUTERNAME = DESKTOP-22TKUL1
+# milj�
+PROGRAMFILES = C:\Program Files (x86)
+# milj�
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# milj�
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# milj�
+USERNAME = mlwel
+# milj�
+PUBLIC = C:\Users\Public
+# milj�
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# milj�
+VSCODE_CODE_CACHE_PATH = C:\Users\mlwel\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# milj�
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# milj 
+make.exe: *** Ingen regel til at skabe m�l 'all'. Stop.
+ 
+�
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# milj�
+LOGONSERVER = \\DESKTOP-22TKUL1
+# milj�
+ONEDRIVECONSUMER = C:\Users\mlwel\OneDrive
+# milj�
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# milj�
+USERDOMAIN = DESKTOP-22TKUL1
+# forvalgt
+MAKE = $(MAKE_COMMAND)
+# forvalgt
+MAKECMDGOALS := all
+# forvalgt
+MAKE_VERSION := 3.81
+# makefil
+.DEFAULT_GOAL := 
+# milj�
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatisk
+%D = $(patsubst %/,%,$(dir $%))
+# milj�
+LOCALAPPDATA = C:\Users\mlwel\AppData\Local
+# milj�
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# forvalgt
+MAKE_COMMAND := make.exe
+# milj�
+PROCESSOR_ARCHITEW6432 = AMD64
+# forvalgt
+.VARIABLES := 
+# automatisk
+*F = $(notdir $*)
+# milj�
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# milj�
+OS = Windows_NT
+# milj�
+VSCODE_IPC_HOOK = \\.\pipe\1c7199991b5463acae2ac8d5c98e1a19-1.63.2-main-sock
+# milj�
+HOMEPATH = \Users\mlwel
+# milj�
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# milj�
+PROMPT = $P$G
+# milj�
+MFLAGS = -Rrqp
+# automatisk
+*D = $(patsubst %/,%,$(dir $*))
+# milj�
+SYSTEMROOT = C:\Windows
+# automatisk
++D = $(patsubst %/,%,$(dir $+))
+# automatisk
++F = $(notdir $+)
+# milj�
+APPDATA = C:\Users\mlwel\AppData\Roaming
+# milj�
+TEMP = C:\Users\mlwel\AppData\Local\Temp
+# milj�
+COMSPEC = C:\Windows\system32\cmd.exe
+# forvalgt
+MAKEFILES := 
+# automatisk
+<F = $(notdir $<)
+# milj�
+LC_ALL = C
+# automatisk
+^F = $(notdir $^)
+# forvalgt
+SUFFIXES := 
+# milj�
+SYSTEMDRIVE = C:
+# milj�
+SESSIONNAME = Console
+# milj�
+PROCESSOR_REVISION = 2100
+# milj�
+MAKELEVEL := 0
+# milj�
+LANG = C
+# milj�
+PROCESSOR_LEVEL = 25
+# milj�
+VSCODE_PID = 6384
+# milj�
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-22TKUL1
+# Statistik for variabels�t-hash-spande:
+# Fyldning=87/1024=8%, Omgrupperinger=0, Sammenst�d=9/104=9%
+
+# Pattern-specific Variable Values
+
+# Ingen m�nsterspecifikke variabelv�rdier.
+
+# Filkataloger
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (n�gle C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1639169966): 6 filer, ingen umuligheder.
+# C:\Program Files\Docker\Docker\resources\bin (n�gle C:/Program Files/Docker/Docker/resources/bin, mtime 1630593058): 13 filer, ingen umuligheder.
+# E:\Programmer\LaTeX\miktex\bin\x64\ (n�gle E:/Programmer/LaTeX/miktex/bin/x64/, mtime 1637603223): 679 filer, ingen umuligheder.
+# C:\Users\mlwel\AppData\Roaming\Composer\vendor\bin: kunne ikke unders�ges med stat.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (n�gle C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1628081447): 30 filer, ingen umuligheder.
+# C:\Windows\System32\Wbem (n�gle C:/Windows/System32/Wbem, mtime 1636774233): 155 filer, ingen umuligheder.
+# . (n�gle e:/Skole/OSDS/OSDS, mtime 1640577747): 17 filer, ingen umuligheder.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (n�gle C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1633524772): 10 filer, ingen umuligheder.
+# E:\Programming\NodeJS\ (n�gle E:/Programming/NodeJS/, mtime 1632052066): 11 filer, ingen umuligheder.
+# E:\Programmer\Pandoc\ (n�gle E:/Programmer/Pandoc/, mtime 1637602577): 6 filer, ingen umuligheder.
+# C:\Users\mlwel\AppData\Local\Microsoft\WindowsApps (n�gle C:/Users/mlwel/AppData/Local/Microsoft/WindowsApps, mtime 1639620108): 15 filer, ingen umuligheder.
+# E:\Programming\PHP (n�gle E:/Programming/PHP, mtime 1632233683): 39 filer, ingen umuligheder.
+# E:\Programming\C\GnuWin32\bin (n�gle E:/Programming/C/GnuWin32/bin, mtime 1637601429): 5 filer, ingen umuligheder.
+# E:\Programming\Microsoft VS Code\bin (n�gle E:/Programming/Microsoft VS Code/bin, mtime 1639687198): 4 filer, ingen umuligheder.
+# C:\Windows\System32\OpenSSH\: kunne ikke unders�ges med stat.
+# C:\ProgramData\ComposerSetup\bin (n�gle C:/ProgramData/ComposerSetup/bin, mtime 1632233352): 5 filer, ingen umuligheder.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (n�gle C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1639169539): 5 filer, ingen umuligheder.
+# C:\Windows (n�gle C:/Windows, mtime 1640471166): 109 filer, ingen umuligheder.
+# E:\Programming\WebStorm\WebStorm 2021.2.2\bin (n�gle E:/Programming/WebStorm/WebStorm 2021.2.2/bin, mtime 1634283937): 28 filer, ingen umuligheder.
+# E:\Programming\Python\Python3 (n�gle E:/Programming/Python/Python3, mtime 1628104820): 18 filer, ingen umuligheder.
+# E:\Programming\Git\cmd (n�gle E:/Programming/Git/cmd, mtime 1631288051): 8 filer, ingen umuligheder.
+# C:\ProgramData\DockerDesktop\version-bin (n�gle C:/ProgramData/DockerDesktop/version-bin, mtime 1630593104): 2 filer, ingen umuligheder.
+# C:\Windows\system32 (n�gle C:/Windows/system32, mtime 1639788426): 2962 filer, ingen umuligheder.
+# E:\Programming\Python\Python2 (n�gle E:/Programming/Python/Python2, mtime 1628104714): 16 filer, ingen umuligheder.
+# E:\Programming\Python\Python3\Scripts (n�gle E:/Programming/Python/Python3/Scripts, mtime 1634735843): 10 filer, ingen umuligheder.
+# E:\Programming\IntelliJ\IntelliJ IDEA 2021.2\bin (n�gle E:/Programming/IntelliJ/IntelliJ IDEA 2021.2/bin, mtime 1628103959): 32 filer, ingen umuligheder.
+# E:\Programming\FFmpeg (n�gle E:/Programming/FFmpeg, mtime 1632065342): 5 filer, ingen umuligheder.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (n�gle C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1635984763): 5 filer, ingen umuligheder.
+# C:\Users\mlwel\AppData\Roaming\npm (n�gle C:/Users/mlwel/AppData/Roaming/npm, mtime 1634151086): 6 filer, ingen umuligheder.
+
+# 4201 filer, ingen umuligheder i 29 kataloger.
+
+# Implicitte regler.
+
+# Ingen implicitte regler.
+
+# Filer
+
+# Ikke et m�l:
+all:
+#  Kommandolinjem�l.
+#  Der er udf�rt implicit regels�gning.
+#  Filen findes ikke.
+#  Filen er ikke blevet opdateret.
+# Statistik for variabels�t-hash-spande:
+# Fyldning=0/32=0%, Omgrupperinger=0, Sammenst�d=0/0=0%
+
+# Ikke et m�l:
+.DEFAULT:
+#  Der er ikke udf�rt implicit regels�gning.
+#  �ndringstid ikke tjekket.
+#  Filen er ikke blevet opdateret.
+
+# Ikke et m�l:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Der er udf�rt implicit regels�gning.
+#  Filen findes ikke.
+#  Filen er blevet opdateret.
+#  Opdatering mislykkedes.
+# Statistik for variabels�t-hash-spande:
+# Fyldning=0/32=0%, Omgrupperinger=0, Sammenst�d=0/0=0%
+
+# Ikke et m�l:
+.SUFFIXES:
+#  Der er ikke udf�rt implicit regels�gning.
+#  �ndringstid ikke tjekket.
+#  Filen er ikke blevet opdateret.
+
+# Ikke et m�l:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Der er udf�rt implicit regels�gning.
+#  Filen findes ikke.
+#  Filen er blevet opdateret.
+#  Opdatering mislykkedes.
+# Statistik for variabels�t-hash-spande:
+# Fyldning=0/32=0%, Omgrupperinger=0, Sammenst�d=0/0=0%
+
+# Statistik for fil-hash-spande:
+# Fyldning=5/1024=0%, Omgrupperinger=0, Sammenst�d=0/16=0%
+# VPATH-s�gestier
+
+# Ingen 'vpath'-s�gestier
+
+# Ingen generel ('VPATH'-variabel) s�gesti.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Afsluttet makedatabase Mon Dec 27 05:02:27 2021
+
+ 
