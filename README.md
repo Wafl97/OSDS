@@ -123,6 +123,24 @@ HTTP
        - 4-- client error
        - 5-- server error
 
+ARP
+
+    Address Resolution Protocol
+    Protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address
+    MAC from IPv4
+
+SIP
+
+    Session Initiation Protocol
+
+SDP
+
+    Session Description Protocol
+
+SAP
+
+    Session Announcement Protocol
+
 SSL/TLS
 
     encryption
@@ -387,6 +405,25 @@ Unicast - only send to 1
 Multicast - cast to all who are intersted
 
 Broadcast - cast to all
+
+Batch
+
+    Works on all data
+    Works on old data
+    Significant time lag
+    Possible error correction
+    Complex analysis
+    + Reliable data
+
+Stream
+
+    Works on a "window"
+    Works on recent data
+    No time lag
+    "No" error correction
+    Simple analysis
+
+    + Timely delivery
 
 ## DevOps
 

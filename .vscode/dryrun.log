@@ -1,6 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: G�r til katalog 'e:/Skole/OSDS/OSDS'
  
-make.exe: *** Ingen angivne m�l og ingen makefil fundet. Stop.
- 
 make.exe: Forlader katalog 'e:/Skole/OSDS/OSDS'
+ 
+make.exe: *** Ingen angivne m�l og ingen makefil fundet. Stop.
  

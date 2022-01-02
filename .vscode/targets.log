@@ -6,9 +6,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # BESTEMT FORM�L.
 
 # This program built for i386-pc-mingw32
- 
 
-# Makedatabase, udskrevet Mon Dec 27 05:02:27 2021
+# Makedatabase, udskrevet Sun Jan 02 18:10:15 2022
 
 # Variabler
 
@@ -53,7 +52,7 @@ PROGRAMW6432 = C:\Program Files
 # milj�
 PROGRAMDATA = C:\ProgramData
 # milj�
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5020eb0a-8953-4c29-b614-58613ff40a90-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-244c0d5b-737d-438c-b6ea-75dfb05ede06-sock
 # milj�
 VSCODE_CWD = E:\Skole\OSDS\OSDS
 # milj�
@@ -77,7 +76,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatisk
 %F = $(notdir $%)
 # milj�
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6384_KRUYKBYECVXNELYW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20444_WSKDIEDBULBRCFKS
 # milj�
 VSCODE_PIPE_LOGGING = true
 # milj�
@@ -98,10 +97,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProce
 VSCODE_CODE_CACHE_PATH = C:\Users\mlwel\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
 # milj�
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# milj 
-make.exe: *** Ingen regel til at skabe m�l 'all'. Stop.
- 
-�
+# milj�
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # milj�
 LOGONSERVER = \\DESKTOP-22TKUL1
@@ -186,7 +182,7 @@ LANG = C
 # milj�
 PROCESSOR_LEVEL = 25
 # milj�
-VSCODE_PID = 6384
+VSCODE_PID = 20444
 # milj�
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-22TKUL1
 # Statistik for variabels�t-hash-spande:
@@ -290,6 +286,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Afsluttet makedatabase Mon Dec 27 05:02:27 2021
+# Afsluttet makedatabase Sun Jan 02 18:10:15 2022
 
+ 
+make.exe: *** Ingen regel til at skabe m�l 'all'. Stop.
  
