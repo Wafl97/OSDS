@@ -23,6 +23,18 @@ Services: Exposes a set of pods on the cluster
 
 ## Linux
 
+mkdir - make a dir
+
+cd - change dir
+
+ls - show contents of dir
+
+mv - move file
+
+ip link show - get list of interfaces(MAC)
+
+ip addr show - get list of IPs
+
 ## Network
 
 OSI-Model (all networks):
@@ -97,6 +109,12 @@ DHCP - Dynamic Host Configuration Protocol
 
     1 server on network
     multiple clients
+
+DNS
+
+    Domain Name System
+
+    Convert URLs and domain names into IP addresses that computers can understand and use
 
 TCP
     
@@ -367,6 +385,13 @@ Scheduling algorithms
 Inter-Process Communication
 
 Pipes - Take output from 1 process as input for another
+
+Thread and process
+
+    Threads
+      - Share memoty, file descriptors
+    Processes
+      - Share nothing
 
 ## Memory
 
